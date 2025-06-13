@@ -12,4 +12,7 @@ export default defineConfig({
   css: {
     postcss: './postcss.config.js',
   },
+  build: {
+    chunkSizeWarningLimit: 1600, // Increase the chunk size warning limit
+  }
 });
