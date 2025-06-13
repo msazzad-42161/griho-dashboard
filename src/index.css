@@ -1,0 +1,142 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Li Ador Noirrit Font Family */
+@font-face {
+  font-family: 'Li Ador Noirrit';
+  src: url('/fonts/li-ador-unicode/Li Ador Noirrit Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Li Ador Noirrit';
+  src: url('/fonts/li-ador-unicode/Li Ador Noirrit Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Li Ador Noirrit';
+  src: url('/fonts/li-ador-unicode/Li Ador Noirrit Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Li Ador Noirrit';
+  src: url('/fonts/li-ador-unicode/Li Ador Noirrit SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Li Ador Noirrit';
+  src: url('/fonts/li-ador-unicode/Li Ador Noirrit ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+/* Italic variants */
+@font-face {
+  font-family: 'Li Ador Noirrit';
+  src: url('/fonts/li-ador-unicode/Li Ador Noirrit Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* Add other italic variants as needed *//* Li Ador Noirrit Font Family */
+@font-face {
+  font-family: 'Li Ador Noirrit';
+  src: url('/fonts/li-ador-unicode/Li Ador Noirrit Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Li Ador Noirrit';
+  src: url('/fonts/li-ador-unicode/Li Ador Noirrit Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Li Ador Noirrit';
+  src: url('/fonts/li-ador-unicode/Li Ador Noirrit Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Li Ador Noirrit';
+  src: url('/fonts/li-ador-unicode/Li Ador Noirrit SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Li Ador Noirrit';
+  src: url('/fonts/li-ador-unicode/Li Ador Noirrit ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+/* Italic variants */
+@font-face {
+  font-family: 'Li Ador Noirrit';
+  src: url('/fonts/li-ador-unicode/Li Ador Noirrit Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* Add other italic variants as needed */
+
+
+
+
+@layer base {
+  :root {
+    --background: #F0F5FF;
+    --primary: #421CAE;
+    --secondary: #393545;
+    --black: #000000;
+    --default-text: #525252;
+    --white: #FFFFFF;
+    --nav: #051321;
+    --nav-text: #C6C6C6;
+    --input-background: #EAEFF9;
+    --color-1: #DBE7FF;
+    --color-2: #C8D5EF;
+    --color-3: #3CD856;
+    --color-4: #DCFCE7;
+    --color-5: #3CD856;
+    --color-6: #4FA274;
+    --color-7: #FFE2E5;
+    --color-8: #FA5A7D;
+    --color-9: #D480AD;
+    --color-10: #AF65FF;
+    --color-11: #F3E8FF;
+    --color-12: #7B79C7;
+    --color-13: #CA4D3C;
+    --color-14: #A36472;
+    --color-15: #C04F4F;
+    --color-16: #742A20;
+    --color-17: #11283F;
+    --color-18: #FFF4DE;
+    --color-19: #FF947A;
+    --color-20: #A2904F;
+    --color-21: #6EB676;
+    --color-22: #E67869;
+    --color-23: #5EA73C;
+    --color-24: #3CD856;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  body {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  }
+}
